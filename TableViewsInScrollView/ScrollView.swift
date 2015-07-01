@@ -50,4 +50,18 @@ class ScrollView: UIScrollView {
         
         return false
     }
+    
+    override func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer) -> Bool {
+        if gestureRecognizer.isKindOfClass(UIPanGestureRecognizer.self) {
+            if let gesture = gestureRecognizer as? UIPanGestureRecognizer {
+                let velocity = gesture.velocityInView(self)
+                if (abs(velocity.y)*2) <= abs(velocity.x) {
+                    return true
+                }
+            }
+        }
+        
+        return false
+    }
+
 }

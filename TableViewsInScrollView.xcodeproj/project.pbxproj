@@ -167,6 +167,7 @@
 				TargetAttributes = {
 					A1B391B61B3B8F7A00D1CACD = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = S8947SF43U;
 					};
 					A1B391CB1B3B8F7B00D1CACD = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -348,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableViewsInScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableViewsInScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,6 +420,7 @@
 				A1B391D81B3B8F7B00D1CACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1B391D91B3B8F7B00D1CACD /* Build configuration list for PBXNativeTarget "TableViewsInScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +429,7 @@
 				A1B391DB1B3B8F7B00D1CACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
